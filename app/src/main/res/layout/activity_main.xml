@@ -78,6 +78,7 @@
         android:height="50dp"
         android:text="Go"
 
+
         android:textColor="@color/colorPrimaryDark"
         app:cornerRadius="20dp"
         app:icon="@drawable/ic_play_arrow_black_24dp"

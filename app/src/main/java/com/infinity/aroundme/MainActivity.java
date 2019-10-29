@@ -42,13 +42,11 @@ public class MainActivity extends AppCompatActivity {
                     Snackbar.make(view, "You got NULL data!", Snackbar.LENGTH_SHORT).show();
                 }
                 else {
-                    User user = new User(displayNameString, usernameString);
+                    User user = new User(displayNameString, usernameString, "default");
                     fireStore.registerUser(user);
                 }
             }
         });
-
-
     }
 
     public void hideKeyboard() {
